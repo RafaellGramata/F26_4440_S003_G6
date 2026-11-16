@@ -1,0 +1,12 @@
+=== START Sun 11/15/2026 15:54:22.57 
+--- uninstall -k 
+Success
+--- install exploit 
+Performing Streamed Install
+Success
+--- packages after install 
+package:org.telegram.messenger versionCode:144
+package:com.aurora.store versionCode:76
+package:com.aplicacaoteste versionCode:1
+package:org.telegram.messenger versionCode:144
+=== END Sun 11/15/2026 15:55:03.41 

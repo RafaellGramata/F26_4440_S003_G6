@@ -1,0 +1,705 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\Avilla-Forensics-Free> C:\Avilla-Forensics-Free\adb\adb.exe shell dumpsys package org.telegram.messenger
+Activity Resolver Table:
+  Full MIME Types:
+      */*:
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 3fe2fd2
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 43888a3
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 2d3e72a
+          Action: "org.telegram.messenger.CREATE_STICKER_PACK"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      video/*:
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 31cc307
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      text/plain:
+        cf9ab7a org.telegram.messenger/.GoogleVoiceClientActivity filter 2e95f2b
+          Action: "com.google.android.voicesearch.SEND_MESSAGE_TO_CONTACTS"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 684a5d
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      vnd.android.cursor.item/vnd.org.telegram.messenger.android.profile:
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 6c607a0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/vnd.org.telegram.messenger.android.profile"
+      vnd.android.cursor.item/vnd.org.telegram.messenger.android.call.video:
+        5baf2ef org.telegram.messenger/org.telegram.ui.CallsActivity filter a7871fc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/vnd.org.telegram.messenger.android.call"
+          StaticType: "vnd.android.cursor.item/vnd.org.telegram.messenger.android.call.video"
+      vnd.android.cursor.item/vnd.org.telegram.messenger.android.call:
+        5baf2ef org.telegram.messenger/org.telegram.ui.CallsActivity filter a7871fc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/vnd.org.telegram.messenger.android.call"
+          StaticType: "vnd.android.cursor.item/vnd.org.telegram.messenger.android.call.video"
+      image/*:
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter fe70546
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 5155c34
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Base MIME Types:
+      vnd.android.cursor.item:
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 6c607a0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/vnd.org.telegram.messenger.android.profile"
+        5baf2ef org.telegram.messenger/org.telegram.ui.CallsActivity filter a7871fc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/vnd.org.telegram.messenger.android.call"
+          StaticType: "vnd.android.cursor.item/vnd.org.telegram.messenger.android.call.video"
+        5baf2ef org.telegram.messenger/org.telegram.ui.CallsActivity filter a7871fc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/vnd.org.telegram.messenger.android.call"
+          StaticType: "vnd.android.cursor.item/vnd.org.telegram.messenger.android.call.video"
+      text:
+        cf9ab7a org.telegram.messenger/.GoogleVoiceClientActivity filter 2e95f2b
+          Action: "com.google.android.voicesearch.SEND_MESSAGE_TO_CONTACTS"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 684a5d
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+
+  Wild MIME Types:
+      *:
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 3fe2fd2
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 43888a3
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 2d3e72a
+          Action: "org.telegram.messenger.CREATE_STICKER_PACK"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      image:
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter fe70546
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 5155c34
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      video:
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 31cc307
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      tonsite:
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter eeb771e
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tonsite"
+      tc:
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 89f6815
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tc"
+      tg:
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 7c10bff
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "tg"
+      tgb:
+        ceb8085 org.telegram.messenger/org.telegram.ui.ShareActivity filter d4c6eda
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.BROWSABLE"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "tgb"
+      ton:
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 513fdcc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "ton"
+          Authority: "transfer": -1
+          Path: "PatternMatcher{PREFIX: /}"
+      http:
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter e642f59
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "telegram.me": -1
+          Authority: "telegram.me": -1
+          Authority: "telegram.dog": -1
+          Authority: "telegram.dog": -1
+          Authority: "t.me": -1
+          Authority: "t.me": -1
+      https:
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter e642f59
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "telegram.me": -1
+          Authority: "telegram.me": -1
+          Authority: "telegram.dog": -1
+          Authority: "telegram.dog": -1
+          Authority: "t.me": -1
+          Authority: "t.me": -1
+
+  Non-Data Actions:
+      org.telegram.passport.AUTHORIZE:
+        9edcf0b org.telegram.messenger/org.telegram.ui.ExternalActionActivity filter cd8b1e8
+          Action: "org.telegram.passport.AUTHORIZE"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.MAIN:
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 809fd21
+          Action: "android.intent.action.MAIN"
+        924691b org.telegram.messenger/.DefaultIcon filter 2692ab8
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+        41b7091 org.telegram.messenger/.VintageIcon filter d214bf6
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+        2967bf7 org.telegram.messenger/.AquaIcon filter be23a64
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+        a7584cd org.telegram.messenger/.PremiumIcon filter 60e3182
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+        3ace093 org.telegram.messenger/.TurboIcon filter 1ba98d0
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+        7e2a0c9 org.telegram.messenger/.NoxIcon filter cf1e3ce
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        fe8a001 org.telegram.messenger/org.telegram.ui.ChatsWidgetConfigActivity filter 8929ea6
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+        d2850e7 org.telegram.messenger/org.telegram.ui.ContactsWidgetConfigActivity filter c7b0494
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter fe70546
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 31cc307
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "video"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 684a5d
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 3fe2fd2
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      android.intent.action.VIEW:
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 6c607a0
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/vnd.org.telegram.messenger.android.profile"
+        5baf2ef org.telegram.messenger/org.telegram.ui.CallsActivity filter a7871fc
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "vnd.android.cursor.item/vnd.org.telegram.messenger.android.call"
+          StaticType: "vnd.android.cursor.item/vnd.org.telegram.messenger.android.call.video"
+      com.google.android.voicesearch.SEND_MESSAGE_TO_CONTACTS:
+        cf9ab7a org.telegram.messenger/.GoogleVoiceClientActivity filter 2e95f2b
+          Action: "com.google.android.voicesearch.SEND_MESSAGE_TO_CONTACTS"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text/plain"
+      android.intent.action.SEND_MULTIPLE:
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 5155c34
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "image"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 43888a3
+          Action: "android.intent.action.SEND_MULTIPLE"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+      org.telegram.messenger.CREATE_STICKER_PACK:
+        e9ecf88 org.telegram.messenger/org.telegram.ui.LaunchActivity filter 2d3e72a
+          Action: "org.telegram.messenger.CREATE_STICKER_PACK"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "*"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.google.android.gms.auth.api.phone.SMS_RETRIEVED:
+        b6694f5 org.telegram.messenger/.SmsReceiver filter 68e428a
+          Action: "com.google.android.gms.auth.api.phone.SMS_RETRIEVED"
+      org.telegram.android.musicplayer.close:
+        fd88b71 org.telegram.messenger/.MusicPlayerReceiver filter 415fd56
+          Action: "org.telegram.android.musicplayer.close"
+          Action: "org.telegram.android.musicplayer.pause"
+          Action: "org.telegram.android.musicplayer.next"
+          Action: "org.telegram.android.musicplayer.play"
+          Action: "org.telegram.android.musicplayer.previous"
+          Action: "android.intent.action.MEDIA_BUTTON"
+          Action: "android.media.AUDIO_BECOMING_NOISY"
+      org.telegram.android.musicplayer.pause:
+        fd88b71 org.telegram.messenger/.MusicPlayerReceiver filter 415fd56
+          Action: "org.telegram.android.musicplayer.close"
+          Action: "org.telegram.android.musicplayer.pause"
+          Action: "org.telegram.android.musicplayer.next"
+          Action: "org.telegram.android.musicplayer.play"
+          Action: "org.telegram.android.musicplayer.previous"
+          Action: "android.intent.action.MEDIA_BUTTON"
+          Action: "android.media.AUDIO_BECOMING_NOISY"
+      com.google.android.gms.measurement.UPLOAD:
+        a3e3b3d org.telegram.messenger/com.google.android.gms.measurement.AppMeasurementReceiver filter b9ff32
+          Action: "com.google.android.gms.measurement.UPLOAD"
+      org.telegram.messenger.ACTION_COPY_CODE:
+        d584e39 org.telegram.messenger/.CopyCodeReceiver filter f84dc7e
+          Action: "org.telegram.messenger.ACTION_COPY_CODE"
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        627aeeb org.telegram.messenger/androidx.profileinstaller.ProfileInstallReceiver filter e466806
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      android.intent.action.PHONE_STATE:
+        39490fb org.telegram.messenger/.CallReceiver filter 7906518
+          Action: "android.intent.action.PHONE_STATE"
+      org.telegram.android.musicplayer.next:
+        fd88b71 org.telegram.messenger/.MusicPlayerReceiver filter 415fd56
+          Action: "org.telegram.android.musicplayer.close"
+          Action: "org.telegram.android.musicplayer.pause"
+          Action: "org.telegram.android.musicplayer.next"
+          Action: "org.telegram.android.musicplayer.play"
+          Action: "org.telegram.android.musicplayer.previous"
+          Action: "android.intent.action.MEDIA_BUTTON"
+          Action: "android.media.AUDIO_BECOMING_NOISY"
+      org.telegram.android.musicplayer.play:
+        fd88b71 org.telegram.messenger/.MusicPlayerReceiver filter 415fd56
+          Action: "org.telegram.android.musicplayer.close"
+          Action: "org.telegram.android.musicplayer.pause"
+          Action: "org.telegram.android.musicplayer.next"
+          Action: "org.telegram.android.musicplayer.play"
+          Action: "org.telegram.android.musicplayer.previous"
+          Action: "android.intent.action.MEDIA_BUTTON"
+          Action: "android.media.AUDIO_BECOMING_NOISY"
+      com.android.vending.INSTALL_REFERRER:
+        b3e2473 org.telegram.messenger/.RefererReceiver filter c82bf30
+          Action: "com.android.vending.INSTALL_REFERRER"
+      android.media.AUDIO_BECOMING_NOISY:
+        fd88b71 org.telegram.messenger/.MusicPlayerReceiver filter 415fd56
+          Action: "org.telegram.android.musicplayer.close"
+          Action: "org.telegram.android.musicplayer.pause"
+          Action: "org.telegram.android.musicplayer.next"
+          Action: "org.telegram.android.musicplayer.play"
+          Action: "org.telegram.android.musicplayer.previous"
+          Action: "android.intent.action.MEDIA_BUTTON"
+          Action: "android.media.AUDIO_BECOMING_NOISY"
+      org.telegram.android.musicplayer.previous:
+        fd88b71 org.telegram.messenger/.MusicPlayerReceiver filter 415fd56
+          Action: "org.telegram.android.musicplayer.close"
+          Action: "org.telegram.android.musicplayer.pause"
+          Action: "org.telegram.android.musicplayer.next"
+          Action: "org.telegram.android.musicplayer.play"
+          Action: "org.telegram.android.musicplayer.previous"
+          Action: "android.intent.action.MEDIA_BUTTON"
+          Action: "android.media.AUDIO_BECOMING_NOISY"
+      org.telegram.start:
+        3996dad org.telegram.messenger/.AppStartReceiver filter 88c98e2
+          Action: "org.telegram.start"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      org.telegram.messenger.ACTION_MESSAGE_HEARD:
+        d9f1483 org.telegram.messenger/.AutoMessageHeardReceiver filter 54dd600
+          Action: "org.telegram.messenger.ACTION_MESSAGE_HEARD"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        627aeeb org.telegram.messenger/androidx.profileinstaller.ProfileInstallReceiver filter af34448
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      com.google.android.c2dm.intent.RECEIVE:
+        bc7a565 org.telegram.messenger/com.google.firebase.iid.FirebaseInstanceIdReceiver filter 984623a
+          Action: "com.google.android.c2dm.intent.RECEIVE"
+      androidx.profileinstaller.action.SKIP_FILE:
+        627aeeb org.telegram.messenger/androidx.profileinstaller.ProfileInstallReceiver filter 1232e1
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        627aeeb org.telegram.messenger/androidx.profileinstaller.ProfileInstallReceiver filter 2504ec7
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      android.intent.action.BOOT_COMPLETED:
+        3996dad org.telegram.messenger/.AppStartReceiver filter 88c98e2
+          Action: "org.telegram.start"
+          Action: "android.intent.action.BOOT_COMPLETED"
+      android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED:
+        e3475df org.telegram.messenger/.NotificationsDisabledReceiver filter 1ba522c
+          Action: "android.app.action.NOTIFICATION_CHANNEL_BLOCK_STATE_CHANGED"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        90c37a9 org.telegram.messenger/.ChatsWidgetProvider filter 8df612e
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        e4c94cf org.telegram.messenger/.ContactsWidgetProvider filter 30c9e5c
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      android.intent.action.MEDIA_BUTTON:
+        fd88b71 org.telegram.messenger/.MusicPlayerReceiver filter 415fd56
+          Action: "org.telegram.android.musicplayer.close"
+          Action: "org.telegram.android.musicplayer.pause"
+          Action: "org.telegram.android.musicplayer.next"
+          Action: "org.telegram.android.musicplayer.play"
+          Action: "org.telegram.android.musicplayer.previous"
+          Action: "android.intent.action.MEDIA_BUTTON"
+          Action: "android.media.AUDIO_BECOMING_NOISY"
+        71141d7 org.telegram.messenger/.voip.VoIPMediaButtonReceiver filter 7b2bac4
+          Action: "android.intent.action.MEDIA_BUTTON"
+
+Service Resolver Table:
+  Schemes:
+      wear:
+        1d9cdea org.telegram.messenger/.WearAuthListenerService filter 37628db
+          Action: "com.google.android.gms.wearable.MESSAGE_RECEIVED"
+          Scheme: "wear"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{PREFIX: /tg-wear-auth/}"
+
+  Non-Data Actions:
+      android.content.SyncAdapter:
+        91c5460 org.telegram.messenger/.ContactsSyncAdapterService filter 5055d19
+          Action: "android.content.SyncAdapter"
+      com.google.firebase.MESSAGING_EVENT:
+        91c5cf4 org.telegram.messenger/.GcmPushListenerService filter e1e1c1d
+          Action: "com.google.firebase.MESSAGING_EVENT"
+        27edeb6 org.telegram.messenger/com.google.firebase.messaging.FirebaseMessagingService filter ea477b7
+          Action: "com.google.firebase.MESSAGING_EVENT"
+          mPriority=-500, mOrder=0, mHasStaticPartialTypes=false, mHasDynamicPartialTypes=false
+      android.telecom.ConnectionService:
+        962568c org.telegram.messenger/.voip.TelegramConnectionService filter 185b1d5 permission android.permission.BIND_TELECOM_CONNECTION_SERVICE
+          Action: "android.telecom.ConnectionService"
+      android.accounts.AccountAuthenticator:
+        ad0fe92 org.telegram.messenger/.AuthenticatorService filter f791063
+          Action: "android.accounts.AccountAuthenticator"
+      android.media.browse.MediaBrowserService:
+        ffc71de org.telegram.messenger/.MusicBrowserService filter 8e24fbf
+          Action: "android.media.browse.MediaBrowserService"
+      android.service.chooser.ChooserTargetService:
+        e244f78 org.telegram.messenger/androidx.sharetarget.ChooserTargetServiceCompat filter 47c9651 permission android.permission.BIND_CHOOSER_TARGET_SERVICE
+          Action: "android.service.chooser.ChooserTargetService"
+
+Permissions:
+  Permission [org.telegram.messenger.permission.MAPS_RECEIVE] (70aeb24):
+    sourcePackage=org.telegram.messenger
+    uid=10170 gids=null type=0 prot=signature
+    perm=Permission{edfaca7 org.telegram.messenger.permission.MAPS_RECEIVE}
+
+Permissions:
+  Permission [org.telegram.messenger.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (523468d):
+    sourcePackage=org.telegram.messenger
+    uid=10170 gids=null type=0 prot=signature
+    perm=Permission{c019554 org.telegram.messenger.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+
+Registered ContentProviders:
+  org.telegram.messenger/androidx.core.content.FileProvider:
+    Provider{b245cfd org.telegram.messenger/androidx.core.content.FileProvider}
+  org.telegram.messenger/.NotificationImageProvider:
+    Provider{b7eddf2 org.telegram.messenger/.NotificationImageProvider}
+  org.telegram.messenger/com.google.mlkit.common.internal.MlKitInitProvider:
+    Provider{7d06c43 org.telegram.messenger/com.google.mlkit.common.internal.MlKitInitProvider}
+  org.telegram.messenger/com.google.firebase.provider.FirebaseInitProvider:
+    Provider{38cb2c0 org.telegram.messenger/com.google.firebase.provider.FirebaseInitProvider}
+  org.telegram.messenger/.voip.CallNotificationSoundProvider:
+    Provider{1decbf9 org.telegram.messenger/.voip.CallNotificationSoundProvider}
+  org.telegram.messenger/androidx.startup.InitializationProvider:
+    Provider{998e73e org.telegram.messenger/androidx.startup.InitializationProvider}
+
+ContentProvider Authorities:
+  [org.telegram.messenger.call_sound_provider]:
+    Provider{1decbf9 org.telegram.messenger/.voip.CallNotificationSoundProvider}
+      applicationInfo=ApplicationInfo{18c9b60 org.telegram.messenger}
+  [org.telegram.messenger.firebaseinitprovider]:
+    Provider{38cb2c0 org.telegram.messenger/com.google.firebase.provider.FirebaseInitProvider}
+      applicationInfo=ApplicationInfo{c759819 org.telegram.messenger}
+  [org.telegram.messenger.androidx-startup]:
+    Provider{998e73e org.telegram.messenger/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{ebf90de org.telegram.messenger}
+  [org.telegram.messenger.notification_image_provider]:
+    Provider{b7eddf2 org.telegram.messenger/.NotificationImageProvider}
+      applicationInfo=ApplicationInfo{f6882bf org.telegram.messenger}
+  [org.telegram.messenger.mlkitinitprovider]:
+    Provider{7d06c43 org.telegram.messenger/com.google.mlkit.common.internal.MlKitInitProvider}
+      applicationInfo=ApplicationInfo{6100d8c org.telegram.messenger}
+  [org.telegram.messenger.provider]:
+    Provider{b245cfd org.telegram.messenger/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{f3e9cd5 org.telegram.messenger}
+
+Key Set Manager:
+  [org.telegram.messenger]
+      Signing KeySets: 38
+
+Packages:
+  Package [org.telegram.messenger] (eabbb95):
+    userId=10170
+    pkg=Package{b790131 org.telegram.messenger}
+    codePath=/data/app/~~RzOiiCQVGHvNM-FpXjtK0Q==/org.telegram.messenger-_zfLPLomQPyOd7jNBY2PEA==
+    resourcePath=/data/app/~~RzOiiCQVGHvNM-FpXjtK0Q==/org.telegram.messenger-_zfLPLomQPyOd7jNBY2PEA==
+    legacyNativeLibraryDir=/data/app/~~RzOiiCQVGHvNM-FpXjtK0Q==/org.telegram.messenger-_zfLPLomQPyOd7jNBY2PEA==/lib
+    primaryCpuAbi=x86_64
+    secondaryCpuAbi=null
+    versionCode=73031 minSdk=23 targetSdk=36
+    versionName=13.2.2
+    splits=[base, config.x86_64, config.xxhdpi]
+    apkSigningVersion=3
+    applicationInfo=ApplicationInfo{b790131 org.telegram.messenger}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE RESTORE_ANY_VERSION LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE PRIVATE_FLAG_ALLOW_NATIVE_HEAP_POINTER_TAGGING ]
+    hasPreserveLegacyExternalStorage=true
+    forceQueryable=false
+    queriesIntents=[Intent { act=android.intent.action.VIEW dat=ton:/* }, Intent { act=com.android.vending.billing.InAppBillingService.BIND }, Intent { act=com.google.android.apps.play.billingtestcompanion.BillingOverrideService.BIND }]
+    dataDir=/data/user/0/org.telegram.messenger
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      com.sec.android.app.multiwindow
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2026-11-15 14:38:35
+    firstInstallTime=2026-11-15 14:38:55
+    lastUpdateTime=2026-11-15 14:38:55
+    installerPackageName=com.aurora.store
+    signatures=PackageSignatures{dc8a016 version:3, signatures:[9744bfe6], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP KILL_AFTER_RESTORE RESTORE_ANY_VERSION LARGE_HEAP ]
+    declared permissions:
+      org.telegram.messenger.permission.MAPS_RECEIVE: prot=signature, INSTALLED
+      org.telegram.messenger.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature, INSTALLED
+    requested permissions:
+      com.google.android.c2dm.permission.RECEIVE
+      org.telegram.messenger.permission.MAPS_RECEIVE
+      com.google.android.providers.gsf.permission.READ_GSERVICES
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.ACCESS_MEDIA_LOCATION
+      android.permission.CALL_PHONE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC
+      android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+      android.permission.FOREGROUND_SERVICE_MEDIA_PROJECTION
+      android.permission.FOREGROUND_SERVICE_CAMERA
+      android.permission.FOREGROUND_SERVICE_LOCATION
+      android.permission.FOREGROUND_SERVICE_MICROPHONE
+      android.permission.READ_CALL_LOG: restricted=true
+      android.permission.USE_FULL_SCREEN_INTENT
+      android.permission.READ_CLIPBOARD
+      android.permission.BLUETOOTH_CONNECT
+      android.permission.INTERNET
+      android.permission.RECORD_AUDIO
+      android.permission.MODIFY_AUDIO_SETTINGS
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.ACCESS_WIFI_STATE
+      android.permission.WAKE_LOCK
+      android.permission.READ_EXTERNAL_STORAGE: restricted=true
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.GET_ACCOUNTS
+      android.permission.READ_CONTACTS
+      android.permission.WRITE_CONTACTS
+      android.permission.MANAGE_ACCOUNTS
+      android.permission.READ_PROFILE
+      android.permission.WRITE_SYNC_SETTINGS
+      android.permission.READ_SYNC_SETTINGS
+      android.permission.AUTHENTICATE_ACCOUNTS
+      android.permission.VIBRATE
+      android.permission.SYSTEM_ALERT_WINDOW
+      android.permission.READ_PHONE_STATE
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.USE_FINGERPRINT
+      android.permission.USE_BIOMETRIC
+      android.permission.INSTALL_SHORTCUT
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      com.android.launcher.permission.UNINSTALL_SHORTCUT
+      android.permission.CAMERA
+      android.permission.BLUETOOTH
+      android.permission.MANAGE_OWN_CALLS
+      android.permission.REQUEST_INSTALL_PACKAGES
+      android.permission.READ_PHONE_NUMBERS
+      android.permission.POST_NOTIFICATIONS
+      com.sec.android.provider.badge.permission.READ
+      com.sec.android.provider.badge.permission.WRITE
+      com.htc.launcher.permission.READ_SETTINGS
+      com.htc.launcher.permission.UPDATE_SHORTCUT
+      com.sonyericsson.home.permission.BROADCAST_BADGE
+      com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+      com.anddoes.launcher.permission.UPDATE_COUNT
+      com.majeur.launcher.permission.UPDATE_BADGE
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      com.huawei.android.launcher.permission.READ_SETTINGS
+      com.huawei.android.launcher.permission.WRITE_SETTINGS
+      android.permission.READ_APP_BADGE
+      com.oppo.launcher.permission.READ_SETTINGS
+      com.oppo.launcher.permission.WRITE_SETTINGS
+      me.everything.badger.permission.BADGE_COUNT_READ
+      me.everything.badger.permission.BADGE_COUNT_WRITE
+      com.android.vending.BILLING
+      android.permission.WRITE_EXTERNAL_STORAGE: restricted=true
+      org.telegram.messenger.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+    install permissions:
+      com.google.android.c2dm.permission.RECEIVE: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      com.google.android.providers.gsf.permission.READ_GSERVICES: granted=true
+      android.permission.MANAGE_ACCOUNTS: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.WRITE_SYNC_SETTINGS: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      org.telegram.messenger.permission.MAPS_RECEIVE: granted=true
+      com.android.launcher.permission.UNINSTALL_SHORTCUT: granted=true
+      android.permission.READ_PROFILE: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.AUTHENTICATE_ACCOUNTS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.USE_FULL_SCREEN_INTENT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      org.telegram.messenger.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.USE_FINGERPRINT: granted=true
+      android.permission.MANAGE_OWN_CALLS: granted=true
+      android.permission.READ_SYNC_SETTINGS: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      android.permission.USE_BIOMETRIC: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=124239 installed=true hidden=false suspended=false distractionFlags=0 stopped=true notLaunched=true enabled=0 instant=false virtual=false
+    overlay paths:
+      /product/overlay/EmulationPixel4/EmulationPixel4Overlay.apk
+      lastDisabledCaller: com.aurora.store
+      gids=[3002, 3003]
+      runtime permissions:
+        android.permission.READ_CALL_LOG: granted=false, flags=[ RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_FINE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_PHONE_STATE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.GET_ACCOUNTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.READ_CONTACTS: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=false, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via package name:
+    org.telegram.messenger:
+      com.google.android.apps.maps
+      com.aurora.store
+  queries via intent:
+    com.google.android.documentsui:
+      org.telegram.messenger
+    com.google.android.gm:
+      org.telegram.messenger
+    com.google.android.apps.youtube.music:
+      org.telegram.messenger
+    com.google.android.apps.photos:
+      org.telegram.messenger
+    com.google.android.apps.docs:
+      org.telegram.messenger
+  queryable via interaction:
+    User 0:
+
+Package Changes:
+  Sequence number=384
+  User 0:
+    seq=0, package=com.google.android.permissioncontroller
+    seq=1, package=com.android.systemui
+    seq=4, package=com.google.android.inputmethod.latin
+    seq=21, package=com.google.android.apps.youtube.music
+    seq=22, package=com.google.android.sdksetup
+    seq=26, package=com.google.android.cellbroadcastreceiver
+    seq=28, package=com.google.android.apps.docs
+    seq=105, package=com.google.android.apps.messaging
+    seq=201, package=com.google.android.partnersetup
+    seq=297, package=com.android.vending
+    seq=298, package=com.google.android.youtube
+    seq=315, package=com.google.android.gsf
+    seq=317, package=com.google.android.calendar
+    seq=318, package=com.android.camera2
+    seq=319, package=com.android.nfc
+    seq=321, package=com.android.stk
+    seq=323, package=com.android.traceur
+    seq=324, package=com.google.android.apps.maps
+    seq=326, package=com.google.android.apps.photos
+    seq=327, package=com.google.android.apps.wellbeing
+    seq=344, package=com.google.android.projection.gearhead
+    seq=345, package=com.google.android.setupwizard
+    seq=355, package=com.google.android.videos
+    seq=358, package=com.google.android.gms
+    seq=361, package=com.google.android.gm
+    seq=362, package=com.google.android.googlequicksearchbox
+    seq=372, package=com.aurora.store
+    seq=380, package=com.android.settings
+    seq=381, package=org.telegram.messenger
+    seq=383, package=com.aplicacaoteste
+
+
+Dexopt state:
+  [org.telegram.messenger]
+    path: /data/app/~~RzOiiCQVGHvNM-FpXjtK0Q==/org.telegram.messenger-_zfLPLomQPyOd7jNBY2PEA==/base.apk
+      x86_64: [status=speed-profile] [reason=install]
+
+
+Compiler stats:
+  [org.telegram.messenger]
+     base.apk - 7927
+
+APEX session state:
+
+Active APEX packages:
+
+
+Inactive APEX packages:
+
+
+Factory APEX packages:
+
+
+PS C:\Avilla-Forensics-Free> 

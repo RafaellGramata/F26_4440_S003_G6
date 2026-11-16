@@ -1,0 +1,57 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\Avilla-Forensics-Free> C:\Avilla-Forensics-Free\adb\adb.exe shell dumpsys meminfo org.telegram.messenger
+Applications Memory Usage (in Kilobytes):
+Uptime: 1029003 Realtime: 1029003
+
+** MEMINFO in pid 4426 [org.telegram.messenger] **
+                   Pss  Private  Private     Swap      Rss     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty    Total     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------   ------
+  Native Heap    13782    13696        0        0    16440    31752    25203     2741
+  Dalvik Heap     5465     5332        0        0     9412     8141     6106     2035
+ Dalvik Other     2613     2520        0        0     3456                           
+        Stack      860      860        0        0      868                           
+    Other dev       16        0       16        0      236                           
+     .so mmap     8068      764     5036        0    44752                           
+    .jar mmap      906        0        4        0    21936                           
+    .apk mmap    16380        0    15472        0    39492                           
+    .dex mmap      613       12      596        0      756                           
+    .oat mmap      627        0        0        0    13792                           
+    .art mmap     1555      888        0        0    19972                           
+   Other mmap      197       36       32        0     2696                           
+      Unknown      378      368        0        0      888                           
+        TOTAL    51460    24476    21156        0    51460    39893    31309     4776
+ 
+ App Summary
+                       Pss(KB)                        Rss(KB)
+                        ------                         ------
+           Java Heap:     6220                          29384
+         Native Heap:    13696                          16440
+                Code:    21884                         120944
+               Stack:      860                            868
+            Graphics:        0                              0
+       Private Other:     2972
+              System:     5828
+             Unknown:                                    7060
+ 
+           TOTAL PSS:    51460            TOTAL RSS:   174696      TOTAL SWAP (KB):        0
+ 
+ Objects
+               Views:        0         ViewRootImpl:        0
+         AppContexts:        1           Activities:        0
+              Assets:       15        AssetManagers:        0
+       Local Binders:       14        Proxy Binders:       32
+       Parcel memory:       15         Parcel count:       62
+    Death Recipients:        1      OpenSSL Sockets:        1
+            WebViews:        0
+ 
+ SQL
+         MEMORY_USED:      215
+  PAGECACHE_OVERFLOW:       63          MALLOC_SIZE:      117
+ 
+ DATABASES
+      pgsz     dbsz   Lookaside(b)          cache  Dbname
+         4       56             99       23/58/16  /data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+PS C:\Avilla-Forensics-Free> 

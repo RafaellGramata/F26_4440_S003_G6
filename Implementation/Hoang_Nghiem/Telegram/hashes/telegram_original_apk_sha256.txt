@@ -1,0 +1,9 @@
+SHA256 hash of base.apk:
+47ebdaac21ca00b20f2872a9eebcce63f808c059f5de2fc4cd6fe3d060be1031
+CertUtil: -hashfile command completed successfully.
+SHA256 hash of split_config.x86_64.apk:
+407d40fef01719b83f8c1b9174816209259c2973406eed997de1fc0b4153d43d
+CertUtil: -hashfile command completed successfully.
+SHA256 hash of split_config.xxhdpi.apk:
+6324ac22764041608344a68f60a15994554cdadd081c0255f9916ee8d22dd0d4
+CertUtil: -hashfile command completed successfully.

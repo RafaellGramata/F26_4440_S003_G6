@@ -1,0 +1,137 @@
+🟠 The tool does a test on a generic application (com.aplicacaoteste.apk) before starting the DOWNGRADE process on the target APP.
+🟠 Tips: XIAOMI phones may come with USB protections, remove these protections without taking the device out of airplane mode. 
+🟠 In Developer Options, enable "Install via USB" (Allow installation of apps via USB) or Disable MIUI optimization.
+
+🟠 A ferramenta faz um teste em um aplicativo genérico (com.aplicacaoteste.apk) antes de iniciar o processo de DOWNGRADE no APP de destino.
+🟠 Dicas: Os telefones XIAOMI podem vir com proteções USB, remova essas proteções sem tirar o dispositivo do modo avião. 
+🟠 Em Opções de Desenvolvedor habilite "Instalar via USB" (Permitir instalação de apps via USB) ou Desative otimização MIUI. 
+
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:1
+
+
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:1
+
+
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:1
+
+
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:1
+
+
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:1
+
+
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:1
+
+
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:1
+
+
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:1
+
+
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:1
+
+
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:1
+
+
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:1
+
+
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:1
+
+
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:1
+
+
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:1
+
+
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:1
+
+
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:1
+
+
+🟠 Destiny:  C:\Users\ChC\Desktop\CSIS4440_G6_Lab\evidence\non_rooted\org.telegram.messenger\org.telegram.messenger
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:1
+
+
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:1
+
+
+🟠 Destiny:  C:\Users\ChC\Desktop\CSIS4440_G6_Lab\evidence\non_rooted\org.telegram.messenger\org.telegram.messenger
+🟠 Collection code: ADB001-yoxvBKRX
+🟠 Start of extraction: 15-11-2026-15-17-26
+🟠 Destiny:  C:\Avilla-Acquisitions\Case15112026125549\downgrade\org.telegram.messenger
+🟠 Extraction of org.telegram.messenger started.15-11-2026-15-17-28
+🟠 Getting path of base.apk (15-11-2026-15-17-28)
+🟠 package:/data/app/~~RzOiiCQVGHvNM-FpXjtK0Q==/org.telegram.messenger-_zfLPLomQPyOd7jNBY2PEA==/base.apk 15-11-2026-15-17-29
+🟠 Forcing the stop org.telegram.messenger (15-11-2026-15-17-29)
+🟠 Copying base.apk to temp folder (15-11-2026-15-17-29)
+🟠 Backing up base.apk (15-11-2026-15-17-29)
+🟠 Backup of base.apk saved in: C:\Avilla-Acquisitions\Case15112026125549\downgrade\org.telegram.messenger\basebackups\backup-base-org.telegram.messenger-2026-11-15-15-17-29 (15-11-2026-15-17-29)
+🟠 Removing verification protections from installing apps via USB (15-11-2026-15-17-43)
+🟠 Uninstalling the Current Version (15-11-2026-15-17-43)
+🟠 Restarting the Phone (Reboot) (15-11-2026-15-17-48)
+🟠 Removing automatic screen lock (15-11-2026-15-17-53)
+🟠 Installing the exploit org.telegram.messenger (15-11-2026-15-17-53)
+🟠 Starting ADB Backup org.telegram.messenger (15-11-2026-15-17-59)
+🟠 ADB backup completed org.telegram.messenger (15-11-2026-15-17-59)
+🟠 Returning to the original version (15-11-2026-15-17-59)
+🟠 Collection of media files (15-11-2026-15-17-59)
+🟠 Returning automatic screen lock (15-11-2026-15-17-59)
+🟠 Converting .ab to .tar (15-11-2026-15-17-59)
+>> Generated logs (15-11-2026-15-18-01)
+🟠 Collection of media files (/sdcard/Telegram/)
+🟠 Collection of media files (/sdcard/Android/data/org.telegram.messenger/) 15-11-2026-15-18-05
+🟠 Collected media files (15-11-2026-15-18-05)
+🟠 Extraction of org.telegram.messenger completed (15-11-2026-15-18-05)
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:4
+
+
+🟠 List of devices attached
+emulator-5554          device product:sdk_gphone_x86_64 model:sdk_gphone_x86_64 device:generic_x86_64_arm64 transport_id:4
+
+
+🟠 Destiny:  C:\Users\ChC\Desktop\CSIS4440_G6_Lab\evidence\org.telegram.messenger\org.telegram.messenger
+🟠 Collection code: ADB001-09WUVZ8A
+🟠 Start of extraction: 15-11-2026-15-42-00
+🟠 Destiny:  C:\Users\ChC\Desktop\CSIS4440_G6_Lab\evidence\org.telegram.messenger
+🟠 Extraction of org.telegram.messenger started.15-11-2026-15-42-04
+🟠 Getting path of base.apk (15-11-2026-15-42-04)
+🟠 package:/data/app/~~RzOiiCQVGHvNM-FpXjtK0Q==/org.telegram.messenger-_zfLPLomQPyOd7jNBY2PEA==/base.apk 15-11-2026-15-42-04
+🟠 Forcing the stop org.telegram.messenger (15-11-2026-15-42-04)
+🟠 Copying base.apk to temp folder (15-11-2026-15-42-04)
+🟠 Backing up base.apk (15-11-2026-15-42-04)
+🟠 Backup of base.apk saved in: C:\Users\ChC\Desktop\CSIS4440_G6_Lab\evidence\org.telegram.messenger\basebackups\backup-base-org.telegram.messenger-2026-11-15-15-42-04 (15-11-2026-15-42-04)
+🟠 Removing verification protections from installing apps via USB (15-11-2026-15-42-20)
+🟠 Uninstalling the Current Version (15-11-2026-15-42-20)
+🟠 Removing automatic screen lock (15-11-2026-15-42-24)
+🟠 Installing the exploit org.telegram.messenger (15-11-2026-15-42-24)
+🟠 Starting ADB Backup org.telegram.messenger (15-11-2026-15-42-39)
+🟠 ADB backup completed org.telegram.messenger (15-11-2026-15-42-48)
+🟠 Returning to the original version (15-11-2026-15-42-48)
+🟠 Collection of media files (15-11-2026-15-42-51)
+🟠 Returning automatic screen lock (15-11-2026-15-42-51)
+🟠 Converting .ab to .tar (15-11-2026-15-42-52)

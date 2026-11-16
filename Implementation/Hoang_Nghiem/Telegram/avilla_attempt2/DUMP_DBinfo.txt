@@ -1,0 +1,49 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\Avilla-Forensics-Free> C:\Avilla-Forensics-Free\adb\adb.exe shell dumpsys dbinfo org.telegram.messenger
+Applications Database Info:
+
+** Database info for pid 4426 [org.telegram.messenger] **
+
+Connection pool for /data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events:
+  Open: true
+  Max connections: 1
+  Total execution time: 44
+  Configuration: openFlags=268435456, isLegacyCompatibilityWalEnabled=false, journalMode=, syncMode=
+  Available primary connection:
+    Connection #0:
+      isPrimaryConnection: true
+      onlyAllowReadOnlyOperations: false
+      Most recently executed operations:
+        0: [2026-11-15 15:25:48.462] execute took 5ms - succeeded, sql="COMMIT;", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+        1: [2026-11-15 15:25:48.462] executeForChangedRowCount took 0ms - succeeded, sql="UPDATE transport_contexts SET next_request_ms=? WHERE backend_name = ? and priority = ?", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+        2: [2026-11-15 15:25:48.462] prepare took 0ms - succeeded, sql="UPDATE transport_contexts SET next_request_ms=? WHERE backend_name = ? and priority = ?", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+        3: [2026-11-15 15:25:48.461] execute took 0ms - succeeded, sql="BEGIN EXCLUSIVE;", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+        4: [2026-11-15 15:25:48.461] execute took 0ms - succeeded, sql="COMMIT;", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+        5: [2026-11-15 15:25:48.461] executeForCursorWindow took 0ms - succeeded, sql="SELECT 1 FROM events WHERE context_id = ? LIMIT 1", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+        6: [2026-11-15 15:25:48.461] prepare took 0ms - succeeded, sql="SELECT 1 FROM events WHERE context_id = ? LIMIT 1", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+        7: [2026-11-15 15:25:48.461] executeForCursorWindow took 0ms - succeeded, sql="SELECT _id FROM transport_contexts WHERE backend_name = ? and priority = ? and extras = ?", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+        8: [2026-11-15 15:25:48.461] prepare took 0ms - succeeded, sql="SELECT _id FROM transport_contexts WHERE backend_name = ? and priority = ? and extras = ?", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+        9: [2026-11-15 15:25:48.461] execute took 0ms - succeeded, sql="BEGIN EXCLUSIVE;", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+        10: [2026-11-15 15:25:48.452] execute took 9ms - succeeded, sql="COMMIT;", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+        11: [2026-11-15 15:25:48.452] execute took 0ms - succeeded, sql="UPDATE global_log_event_state SET last_metrics_upload_ms=1794785148452", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+        12: [2026-11-15 15:25:48.452] prepare took 0ms - succeeded, sql="UPDATE global_log_event_state SET last_metrics_upload_ms=1794785148452", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+        13: [2026-11-15 15:25:48.452] execute took 0ms - succeeded, sql="DELETE FROM log_event_dropped", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+        14: [2026-11-15 15:25:48.452] prepare took 0ms - succeeded, sql="DELETE FROM log_event_dropped", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+        15: [2026-11-15 15:25:48.452] execute took 0ms - succeeded, sql="BEGIN EXCLUSIVE;", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+        16: [2026-11-15 15:25:48.434] execute took 18ms - succeeded, sql="COMMIT;", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+        17: [2026-11-15 15:25:48.434] execute took 0ms - succeeded, sql="DELETE FROM events WHERE _id in (1)", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+        18: [2026-11-15 15:25:48.434] prepare took 0ms - succeeded, sql="DELETE FROM events WHERE _id in (1)", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+        19: [2026-11-15 15:25:48.434] execute took 0ms - succeeded, sql="BEGIN EXCLUSIVE;", path=/data/user/0/org.telegram.messenger/databases/com.google.android.datatransport.events
+  Available non-primary connections:
+    <none>
+  Acquired connections:
+    <none>
+  Connection waiters:
+    <none>
+
+Database files in /data/user/0/org.telegram.messenger/databases:
+  com.google.android.datatransport.events    57344b ctime=2026-11-15T23:25:48Z mtime=2026-11-15T23:25:48Z atime=2026-11-15T23:25:16Z
+  com.google.android.datatransport.events-journal       0b ctime=2026-11-15T23:25:48Z mtime=2026-11-15T23:25:48Z atime=2026-11-15T23:25:16Z
+PS C:\Avilla-Forensics-Free> 

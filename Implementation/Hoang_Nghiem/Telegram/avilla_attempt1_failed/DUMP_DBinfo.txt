@@ -1,0 +1,6 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+PS C:\Avilla-Forensics-Free> C:\Avilla-Forensics-Free\adb\adb.exe shell dumpsys dbinfo org.telegram.messenger
+No process found for: org.telegram.messenger
+PS C:\Avilla-Forensics-Free> 
